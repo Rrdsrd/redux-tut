@@ -3,8 +3,8 @@ const User=(props)=>{
     const {data}=props
     return(
         <div>
-        <h1>User Component:{data.name}</h1>
-        <h2>User's Age is:{data.age}</h2>
+        <h3>User's name:{data.name}</h3>
+        <h3>User's Age is:{data.age}</h3>
         </div>
     )
 }
